@@ -1,0 +1,1 @@
+Desenvolva um programa para efectuar a troca de três variáveis a, b e c de tal forma que, no final, b contém o valor de a, c contém o valor de b, e a contém o valor de c. Por exemplo, para a = 5, b = 10 e c = 8, teríamos a= 8, b= 5 e c =10.
