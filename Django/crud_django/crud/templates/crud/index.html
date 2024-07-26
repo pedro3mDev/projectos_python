@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title> Crud Django</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/css/style2.css' %}" rel="stylesheet">
+</head>
+
+<body style="overflow-y: hidden;">
+
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1 class="animate-charcter" style="font-weight:900;font-size:45px;text-transform:uppercase;"> Crud com DJANGO</h1>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="{% url 'rt_listar' %}" style="text-transform:uppercase;font-weight:800;" class="btn-get-started scrollto">
+            <i class='bx bxs-user'></i> Acessar  </a>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </section>
+    
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+</html>
