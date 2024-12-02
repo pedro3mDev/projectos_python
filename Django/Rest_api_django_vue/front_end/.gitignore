@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment variables
+.env
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# MacOS files
+.DS_Store
+
+# Output directories
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Local build files
+*.local
+
+# Dependency directories
+jspm_packages/

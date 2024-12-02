@@ -1,0 +1,33 @@
+
+
+$gutter: 1rem; //for primeflex grid system
+@import '@/assets/layout/layout.scss';
+
+@import 'primeflex/primeflex.scss';
+@import 'primeicons/primeicons.css';
+
+
+
+#breadcrumb{
+    border:none; 
+    background-color: var(--surface-ground);                          
+}
+
+#cartao{
+    border-radius: 0px; 
+    border:none; 
+    border-bottom: 1px solid #0077B6;
+    height:auto;
+}
+
+#div_icone{
+    width: 2.5rem; 
+    height: 2.5rem; 
+    background-color:#0077B6;
+}
+
+#icone{
+    color:#fff;
+}
+
+
