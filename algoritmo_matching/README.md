@@ -4,5 +4,5 @@ O algoritmo de matching é uma técnica utilizada para encontrar correspondênci
 # Uso?
 Neste Projecto estarei implementando na Area de Recrutamento e Selecção combinando candidatos com vagas de emprego com base em habilidades, experiência e requisitos do cargo. 
 
-#Executar
+# Executar
 pythun3 run.py
